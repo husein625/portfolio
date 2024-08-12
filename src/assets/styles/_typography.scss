@@ -1,0 +1,91 @@
+body {
+  font-family: "Syne", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 4.827rem;
+
+  @media (max-width: 1000px) {
+    font-size: calc(4.827rem * 0.7);
+  }
+}
+
+h2 {
+  font-size: 3.713rem;
+
+  @media (max-width: 1000px) {
+    font-size: calc(3.713rem * 0.7);
+  }
+
+  @media (max-width: 768px) {
+    font-size: calc(3.713rem * 0.5);
+  }
+}
+
+h3 {
+  font-size: 2.856rem;
+
+  @media (max-width: 1000px) {
+    font-size: calc(2.856rem * 0.7);
+  }
+
+  @media (max-width: 768px) {
+    font-size: calc(2.856rem * 0.5);
+  }
+}
+
+h4 {
+  font-size: 2.197rem;
+
+  @media (max-width: 1000px) {
+    font-size: calc(2.197rem * 0.7);
+  }
+
+  @media (max-width: 768px) {
+    font-size: calc(2.197rem * 0.5);
+  }
+}
+
+h5 {
+  font-size: 1.69rem;
+
+  @media (max-width: 1000px) {
+    font-size: calc(1.69rem * 0.7);
+  }
+
+  @media (max-width: 768px) {
+    font-size: calc(1.69rem * 0.5);
+  }
+}
+
+h6 {
+  font-size: 1.3rem;
+
+  @media (max-width: 1000px) {
+    font-size: calc(1.3rem * 0.7);
+  }
+
+  @media (max-width: 768px) {
+    font-size: calc(1.3rem * 0.5);
+  }
+}
+
+a,
+p > span {
+  font-weight: 800;
+  text-decoration: none;
+}
+
+a {
+  color: $color-accent;
+}
